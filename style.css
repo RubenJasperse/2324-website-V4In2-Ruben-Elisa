@@ -21,6 +21,7 @@
 #wrapper {
    width: 1000px;
    background-color: white;
+   margin: auto;
 }
 
 #title {
