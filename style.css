@@ -38,6 +38,7 @@
 
 #content_wrapper {
    width: 800px;
+   margin: auto;
 }
 
 header {
@@ -49,7 +50,8 @@ article {
 }
 
 .componisten_home {
-   height: 280px;
+   height: 200px;
+   width: 100%;
    background-color: #eeeeee;
 }
 
