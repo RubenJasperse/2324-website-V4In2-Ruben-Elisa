@@ -19,7 +19,7 @@
 /* add your css here, feel free to use comments and order them logically for better readability */
 
 #wrapper {
-   width: 1000px;
+   max-width: 1000px;
    background-color: white;
    margin: auto;
 }
