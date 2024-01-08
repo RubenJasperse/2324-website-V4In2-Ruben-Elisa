@@ -18,75 +18,58 @@
 
 /* add your css here, feel free to use comments and order them logically for better readability */
 
+body {
+   margin: 0px;
+}
+
 #wrapper {
-   max-width: 1000px;
-   background-color: white;
+   width: 1000px;
    margin: auto;
+   background-color: white;
 }
 
 #title {
+   height: 200px;
    width: 100%;
-   height: 180px;
-   background-color: blue;
+   background-color: #7DAFFA;
    text-align: center;
    padding-top: 50px;
 }
 
-#navbar {
-   width: 100%;
-   height: 25px;
-   background-color: #aaaaaa;
-}
-
-#content_wrapper {
-   width: 800px;
-   margin: auto;
-}
-
-header {
-   background-color: red;
-}
-
-article {
-   /* remove if empty */
-}
-
-.componisten_home {
-   height: 200px;
-   width: 100%;
-   background-color: #eeeeee;
-}
-
-/* Style voor Navbar */
-
+/* CSS voor Navbar Button */
 .navbar {
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-   overflow: hidden;
-   background-color: #aaaaaa;
- }
-
- li a {
    display: block;
+   float: left;
+   padding: 10px 20px;
+   margin-right: 20px;
+   margin-top: 5px;
+   margin-bottom: 20px;
+   text-decoration: none;
    color: #000000;
    background-color: #bad8d1;
-   border: 2px;
-   border-style: solid;
-   border-color: #7d7d7d;
-   text-align: center;
-   text-decoration: none;
-   padding: 5px 5px;
-   margin: 20px 20px;
-   float: left;
-   width: 88.8571428571px;
-   height: 100%;
+   border: 2px solid #000000;
+   border-radius: 5px; /* Add ronde hoekjes :) */
+   transition: background-color 0.3s ease, color 0.3s ease; /* transitie voor de kleur tijdens hover */
  }
  
- li a:hover:not(.active) {
+ .navbar:hover {
    background-color: #75b1a3;
+   color: #000000;
  }
  
- .active {
-   text-decoration: underline;
+ /* Styling voor de knop corresponderend met de huidige pagina */
+ .navbar.active {
+   background-color: #4d7c70;
+   color: #000000;
+ }
+
+ #navbar_ul {
+   list-style: none;
+ }
+
+ #navbar {
+   height: auto;
+   width: 100%;
+   float: left;
+   background-color: #aaaaaa;
  }
