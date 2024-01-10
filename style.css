@@ -20,12 +20,14 @@
 
 body {
    margin: 0px;
+   background-color: lightcyan;
 }
 
 #wrapper {
-   width: 1000px;
+   max-width: 1000px;
+   min-width: 500px;
    margin: auto;
-   background-color: white;
+   padding: 0px;
 }
 
 #title {
@@ -46,20 +48,20 @@ body {
    margin-bottom: 20px;
    text-decoration: none;
    color: #000000;
-   background-color: #bad8d1;
+   background-color: #bad8d1d2;
    border: 2px solid #000000;
    border-radius: 5px; /* Add ronde hoekjes :) */
    transition: background-color 0.3s ease, color 0.3s ease; /* transitie voor de kleur tijdens hover */
  }
  
  .navbar:hover {
-   background-color: #75b1a3;
+   background-color: #75b1a3d2;
    color: #000000;
  }
  
  /* Styling voor de knop corresponderend met de huidige pagina */
  .navbar.active {
-   background-color: #4d7c70;
+   background-color: #4d7c70d2;
    color: #000000;
  }
 
@@ -71,14 +73,14 @@ body {
    height: auto;
    width: 100%;
    float: left;
-   background-color: #aaaaaa;
+   background-color: #bdbdbad2;
  }
 
  /* CSS voor footer */
  footer {
    width: 100%;
    height: 180px;
-   background-color: #aaaaaa;
+   background-color: #bdbdbad2;
    float: left;
    text-align: center;
  }
@@ -86,4 +88,44 @@ body {
 .footer {
    text-decoration: none;
    color: #000000;
-} 
+}
+
+/* Main pagina content */
+#content_wrapper {
+   padding: 100px;
+   margin: auto;
+   float: left;
+   background-color: #ffffffd2;
+}
+
+article {
+   margin-bottom: 100px;
+}
+
+/* Componisten profiel dinges */
+.componisten_introductie {
+   display: block;
+   width: 80%;
+   height: 150px;
+   margin-bottom: 20px;
+   margin-left: 10%;
+   background-color: #bdbdbad2;
+   border: 2px solid #000000;
+   border-radius: 5px;
+   float: left;
+   text-decoration: none;
+   color:#000000;
+}
+
+.componisten_profilepicture {
+   height: 150px;
+   border-right: 2px solid #000000;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   float: left;
+   margin-right: 30px;
+}
+
+.componisten_introductie_tekst {
+   margin-bottom: 50px;
+}
