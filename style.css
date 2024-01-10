@@ -76,20 +76,6 @@ body {
    background-color: #bdbdbad2;
  }
 
- /* CSS voor footer */
- footer {
-   width: 100%;
-   height: 180px;
-   background-color: #bdbdbad2;
-   float: left;
-   text-align: center;
- }
- 
-.footer {
-   text-decoration: none;
-   color: #000000;
-}
-
 /* Main pagina content */
 #content_wrapper {
    padding: 100px;
@@ -128,4 +114,20 @@ article {
 
 .componisten_introductie_tekst {
    margin-bottom: 50px;
+}
+
+
+ /* CSS voor footer */
+ footer {
+   width: 100%;
+   height: 150px;
+   padding-top: 75px;
+   background-color: #bdbdbad2;
+   float: left;
+   text-align: center;
+ }
+ 
+.footer {
+   text-decoration: none;
+   color: #000000;
 }
