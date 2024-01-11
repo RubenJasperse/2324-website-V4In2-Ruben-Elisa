@@ -30,12 +30,22 @@ body {
    padding: 0px;
 }
 
-#title {
+header {
    height: 200px;
    width: 100%;
-   background-color: #7DAFFA;
+   background-image: url("/images/Orkest.jpg");
+   background-size: cover;
    text-align: center;
-   padding-top: 50px;
+   padding-top: 20px;
+}
+
+#title {
+   width: 250px;
+   padding: 30px;
+   margin: auto;
+   background-color: #bdbdbad2;
+   border: 2px solid #bdbdbad2;
+   border-radius: 5px;
 }
 
 /* CSS voor Navbar Button */
@@ -74,6 +84,8 @@ body {
    width: 100%;
    float: left;
    background-color: #bdbdbad2;
+   border-top: 2px solid #000000;
+   border-bottom: 2px solid #000000;
  }
 
 /* Main pagina content */
@@ -123,6 +135,7 @@ article {
    height: 150px;
    padding-top: 75px;
    background-color: #bdbdbad2;
+   border-top: 2px solid #000000;
    float: left;
    text-align: center;
  }
