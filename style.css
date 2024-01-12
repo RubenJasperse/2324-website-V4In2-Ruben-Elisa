@@ -113,6 +113,13 @@ article {
    float: left;
    text-decoration: none;
    color:#000000;
+   transition: width 0.25s;
+}
+
+.componisten_introductie:hover {
+   width: 85%;
+   transition: width 0.25s;
+   background-color: #bdbdba;
 }
 
 .componisten_profilepicture {
