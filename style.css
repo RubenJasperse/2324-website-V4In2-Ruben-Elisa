@@ -108,23 +108,27 @@ article {
    height: 150px;
    margin-bottom: 20px;
    margin-left: 10%;
+   margin-right: 10%;
    background-color: #bdbdbad2;
    border: 2px solid #000000;
    border-radius: 5px;
    float: left;
    text-decoration: none;
    color:#000000;
-   transition: width 0.25s ease-out;
+   transition: width 0.25s ease-out, margin 0.25s ease-out;
 }
 
 .componisten_introductie:hover {
    width: 85%;
-   transition: width 0.25s ease-out;
+   margin-left: 7.5%;
+   margin-right: 7.5%;
+   transition: width 0.25s ease-out, margin 0.25s ease-out;
    background-color: #bdbdba;
 }
 
 .componisten_profilepicture {
    height: 150px;
+   width: 115px;
    border-right: 2px solid #000000;
    border-top-left-radius: 5px;
    border-bottom-left-radius: 5px;
