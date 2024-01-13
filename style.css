@@ -19,7 +19,7 @@
 /* add your css here, feel free to use comments and order them logically for better readability */
 
 body {
-   margin: 0px;
+   margin: 0;
    background-color: lightcyan;
 }
 
@@ -27,7 +27,7 @@ body {
    max-width: 1000px;
    min-width: 825px;
    margin: auto;
-   padding: 0px;
+   padding: 0;
 }
 
 header {
@@ -51,6 +51,7 @@ header {
 /* CSS voor Navbar Button */
 .navbar {
    display: block;
+   width: auto;
    float: left;
    padding: 10px 20px;
    margin-right: 20px;
@@ -70,7 +71,7 @@ header {
  }
  
  /* Styling voor de knop corresponderend met de huidige pagina */
- .navbar.active {
+ .active {
    background-color: #4d7c70d2;
    color: #000000;
  }
@@ -113,12 +114,12 @@ article {
    float: left;
    text-decoration: none;
    color:#000000;
-   transition: width 0.25s;
+   transition: width 0.25s ease-out;
 }
 
 .componisten_introductie:hover {
    width: 85%;
-   transition: width 0.25s;
+   transition: width 0.25s ease-out;
    background-color: #bdbdba;
 }
 
