@@ -50,9 +50,8 @@ header {
 
 /* CSS voor Navbar Button */
 .navbar {
-   display: block;
+   display: inline-block;
    width: auto;
-   float: left;
    padding: 10px 20px;
    margin-right: 20px;
    margin-top: 5px;
@@ -76,7 +75,7 @@ header {
    color: #000000;
  }
 
- #navbar_ul {
+ ul {
    list-style: none;
  }
 
@@ -88,6 +87,35 @@ header {
    border-top: 2px solid #000000;
    border-bottom: 2px solid #000000;
  }
+ 
+/* Dropdown menu */
+ul li {display: inline-block;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: auto;
+  display: none;
+  padding: 0px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  margin-top: -22px;
+}
+ul li ul li {  
+  display: block;
+  width: auto;
+}
+ul li ul li a {
+   display:block !important;
+   padding: 10px 20px;
+   background-color: #bad8d1;
+   text-decoration: none;
+   color: #000000;
+} 
+
+ul li ul li a:hover {
+   background-color: #75b1a3;
+   color: #000000;
+}
 
 /* Main pagina content */
 #content_wrapper {
