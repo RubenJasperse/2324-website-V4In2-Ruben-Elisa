@@ -23,6 +23,23 @@ body {
    background-color: lightcyan;
 }
 
+h1 {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+   font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+   font-family: 'Times New Roman', Times, serif;
+}
+
+
 #wrapper {
    max-width: 1000px;
    min-width: 825px;
