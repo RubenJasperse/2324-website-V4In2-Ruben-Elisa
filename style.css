@@ -172,7 +172,7 @@ article {
 
 .over_ons_stukken {
    display:block;
-   width:80%;
+   width:100%;
    height: 280px;
    margin-bottom: 40px;
    background-color: #bdbdbad2;
@@ -183,7 +183,16 @@ article {
    color:#000000;
 }
 
-
+.over_ons_profilepicture{
+   height: 280px;
+   width: 280px;
+   border-right: 2px solid #000000;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   float: left;
+   margin-right: 30px;
+}
+   
 
  /* CSS voor footer */
 footer {
