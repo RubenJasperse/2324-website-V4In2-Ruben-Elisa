@@ -95,17 +95,17 @@ ul li ul {
   position: absolute;
   width: auto;
   display: none;
-  padding: 0px;
+  padding: 0;
   border: 2px solid #000000;
   border-radius: 5px;
-  margin-top: -22px;
+  margin-top: -12px;
 }
 ul li ul li {  
   display: block;
   width: auto;
 }
 ul li ul li a {
-   display:block !important;
+   display: block;
    padding: 10px 20px;
    background-color: #bad8d1;
    text-decoration: none;
