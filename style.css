@@ -23,6 +23,7 @@ body {
    background-color: lightcyan;
 }
 
+/* Font selectie */
 h1 {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -105,7 +106,7 @@ header {
    border-bottom: 2px solid #000000;
  }
  
-/* Dropdown menu */
+/* Css voor dropdown menu */
 ul li {display: inline-block;}
 ul li:hover ul {display: block;}
 ul li ul {
