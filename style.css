@@ -168,6 +168,23 @@ article {
    margin-bottom: 50px;
 }
 
+/*Over ons stukjes*/
+
+.over_ons_stukken {
+   display:block;
+   width:80%;
+   height: 280px;
+   margin-bottom: 40px;
+   background-color: #bdbdbad2;
+   border:2px solid #000000;
+   border-radius: 5px;
+   float: left;
+   text-decoration: none;
+   color:#000000;
+}
+
+
+
  /* CSS voor footer */
 footer {
    width: 100%;
