@@ -232,6 +232,7 @@ footer {
 
 .over_ons_profilepicture{
    height: 300px;
+   width: 200px;
    border-right: 2px solid #000000;
    border-top-left-radius: 5px;
    border-bottom-left-radius: 5px;
