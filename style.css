@@ -169,32 +169,6 @@ article {
    margin-bottom: 50px;
 }
 
-/*Over ons stukjes*/
-
-.over_ons_stukken {
-   display:block;
-   width:100%;
-   height: 280px;
-   margin-bottom: 40px;
-   background-color: #bdbdbad2;
-   border:2px solid #000000;
-   border-radius: 5px;
-   float: left;
-   text-decoration: none;
-   color:#000000;
-}
-
-.over_ons_profilepicture{
-   height: 280px;
-   width: 280px;
-   border-right: 2px solid #000000;
-   border-top-left-radius: 5px;
-   border-bottom-left-radius: 5px;
-   float: left;
-   margin-right: 30px;
-}
-   
-
  /* CSS voor footer */
 footer {
    width: 100%;
@@ -239,3 +213,29 @@ footer {
    background-color: #4d7c70d2;
    color: #000000;
 }
+
+/*Over ons stukjes*/
+
+.over_ons_tekst {
+   display:block;
+   width:100%;
+   height: 300px;
+   padding-right: 20px;
+   margin-bottom: 40px;
+   background-color: #bdbdbad2;
+   border:2px solid #000000;
+   border-radius: 5px;
+   float: left;
+   text-decoration: none;
+   color:#000000;
+}
+
+.over_ons_profilepicture{
+   height: 300px;
+   border-right: 2px solid #000000;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   float: left;
+   margin-right: 30px;
+}
+   
